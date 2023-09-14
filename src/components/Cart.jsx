@@ -18,7 +18,7 @@ const Cart = ({cartItem}) => {
       <h2 className='text-xl font-semibold mt-4 mb-2'>Course Name</h2>
       <div className='mb-4'>
         {
-          names.map((name, index) => <span key={index} className='block text-[rgba(28,27,27,0.60)] mb-1'>{index+1}. {name}</span>)
+          names.map((name, index) => <span key={index+1} className='block text-[rgba(28,27,27,0.60)] mb-1'>{index+1}. {name}</span>)
         }
       </div>
       <hr />
@@ -30,7 +30,7 @@ const Cart = ({cartItem}) => {
 };
 
 Cart.propTypes = {
-  cartItem: PropTypes.array
+  cartItem: PropTypes.array.isRequired
 };
 
 export default Cart;

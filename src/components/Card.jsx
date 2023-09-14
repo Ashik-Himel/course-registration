@@ -26,8 +26,8 @@ const Card = ({card, handleClick}) => {
 };
 
 Card.propTypes = {
-  card: PropTypes.object,
-  handleClick: PropTypes.func
+  card: PropTypes.object.isRequired,
+  handleClick: PropTypes.func.isRequired
 };
 
 export default Card;

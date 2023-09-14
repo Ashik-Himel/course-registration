@@ -13,8 +13,8 @@ const Container = () => {
   }, []);
 
   function handleClick(card) {
-    console.log(card.title);
-    if (hours + card.credit > 20) alert('Insufficient credit hours')
+    if (cartItem.find((item => item.title === card.title))) alert("This item exist in the cart!")
+    else if (hours + card.credit > 20) alert('Insufficient credit hours')
     else {
       setHours(hours + card.credit);
       setCartItem([...cartItem, card]);
