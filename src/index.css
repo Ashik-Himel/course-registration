@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .btn-primary {
+    @apply bg-[#2F80ED] hover:bg-[#2F80ED] hover:border-[#2F80ED] border-[#2F80ED] text-white text-base normal-case;
+  }
+}

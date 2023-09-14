@@ -4,7 +4,7 @@
     "title": "Introduction to C Programming",
     "img": "https://i.ibb.co/t2xdCmD/c.png",
     "price": 15000,
-    "credit": "1hr",
+    "credit": 1,
     "description": "Learn fundamental C programming concepts, syntax, and problem-solving skills in this beginner-friendly course. Build a strong coding foundation."
   },
   {
@@ -12,15 +12,15 @@
     "title": "Introduction to Algorithms",
     "img": "https://i.ibb.co/zNncsFM/algo.png",
     "price": 25000,
-    "credit": "2hr",
-    "description": "Explore essential algorithm design and analysis principles in this foundational course, equipping you with problem-solving skills for computer science."
+    "credit": 2,
+    "description": "Explore essential algorithm design and analysis principles in this foundational course, equipping you with problem-solving skills for computer science and engineering field."
   },
   {
     "id": 3,
     "title": "Introduction to C++ for DSA",
     "img": "https://i.ibb.co/QJ5Z5YQ/cpp.png",
     "price": 10000,
-    "credit": "10hr",
+    "credit": 10,
     "description": "Discover C++ programming while mastering Data Structures and Algorithms in this introductory course, essential for competitive programming and software development."
   },
   {
@@ -28,7 +28,7 @@
     "title": "Basic Data Structures",
     "img": "https://i.ibb.co/5kP17rR/ds.png",
     "price": 35000,
-    "credit": "5hr",
+    "credit": 5,
     "description": "Learn fundamental data structures like arrays, linked lists, and trees, essential for organizing and manipulating data efficiently in software development."
   },
   {
@@ -36,7 +36,7 @@
     "title": "Introduction to OOP Python",
     "img": "https://i.ibb.co/yfk1CWh/oop.png",
     "price": 19000,
-    "credit": "5hr",
+    "credit": 5,
     "description": "Begin your Python journey with Object-Oriented Programming (OOP) principles, mastering classes, objects, and inheritance for robust software development."
   },
   {
@@ -44,15 +44,15 @@
     "title": "Software Engineering",
     "img": "https://i.ibb.co/4mTSKQD/swe.png",
     "price": 23000,
-    "credit": "2hr",
-    "description": "Study the principles and methodologies of Software Engineering, covering the entire software development lifecycle for building high-quality, scalable software systems."
+    "credit": 2,
+    "description": "Study the principles and methodologies of Software Engineering, covering the entire software development lifecycle for building high-quality  systems."
   },
   {
     "id": 7,
     "title": "AWS, Cloud Computing",
     "img": "https://i.ibb.co/MkPXdsq/aws.png",
     "price": 35000,
-    "credit": "5hr",
+    "credit": 5,
     "description": "Explore AWS and Cloud Computing, mastering scalable, cost-effective infrastructure and services for modern application deployment and management."
   },
   {
@@ -60,15 +60,15 @@
     "title": "Database (MySQL)",
     "img": "https://i.ibb.co/2hWt3Zn/mysql.png",
     "price": 19000,
-    "credit": "5hr",
-    "description": "Learn MySQL database management, covering data modeling, querying, and administration, crucial for building and maintaining robust data-driven applications."
+    "credit": 5,
+    "description": "Learn MySQL database management, covering data modeling, querying, and administration, crucial for building robust data-driven applications."
   },
   {
     "id": 9,
     "title": "Problem-Solving Part",
     "img": "https://i.ibb.co/2nmmB4y/problem-solving.png",
     "price": 23000,
-    "credit": "2hr",
+    "credit": 2,
     "description": "Develop problem-solving skills through critical thinking, creative strategies, and logical approaches, applicable across various domains and professions."
   }
 ]

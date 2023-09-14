@@ -1,8 +1,13 @@
+import Container from "./components/Container"
+
 function App() {
   return (
-    <div>
-      <h1>Hello, Course Registration</h1>
-    </div>
+    <main className="py-8">
+      <div className="container">
+        <h1 className="text-3xl font-bold text-center mb-8">Course Registration</h1>
+        <Container></Container>
+      </div>
+    </main>
   )
 }
 
