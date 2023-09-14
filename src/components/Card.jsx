@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import { BsBook } from "react-icons/bs";
 import { FiDollarSign } from "react-icons/fi";
 
-const Card = ({card}) => {
+const Card = ({card, handleClick}) => {
   const {img, title, description, price, credit} = card;
 
   return (
@@ -20,13 +20,14 @@ const Card = ({card}) => {
           <span className='text-[rgba(28,27,27,0.60)]'>Credit: {credit}hr</span>
         </div>
       </div>
-      <a href="#/" className="btn btn-primary w-full mt-8">Select</a>
+      <a href="#/" onClick={() => handleClick(card)} className="btn btn-primary w-full mt-8">Select</a>
     </div>
   );
 };
 
 Card.propTypes = {
-  card: PropTypes.object
+  card: PropTypes.object,
+  handleClick: PropTypes.func
 };
 
 export default Card;
