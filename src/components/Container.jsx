@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react";
 import Card from "./Card";
 import Cart from "./Cart";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Container = () => {
   const [cards, setCards] = useState([]);
@@ -13,8 +15,30 @@ const Container = () => {
   }, []);
 
   function handleClick(card) {
-    if (cartItem.find((item => item.title === card.title))) alert("This item exist in the cart!")
-    else if (hours + card.credit > 20) alert('Insufficient credit hours')
+    if (cartItem.find((item => item.title === card.title))) {
+      toast.error('This course already exist in cart!', {
+        position: "top-center",
+        autoClose: 3000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "colored",
+        });
+    }
+    else if (hours + card.credit > 20) {
+      toast.error('Credit hour limit exceed!', {
+        position: "top-center",
+        autoClose: 3000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "colored",
+        });
+    }
     else {
       setHours(hours + card.credit);
       setCartItem([...cartItem, card]);
@@ -31,6 +55,18 @@ const Container = () => {
       <div className="w-full lg:w-[280px] bg-white p-6 rounded-lg shadow-lg lg:sticky lg:top-8">
         <Cart cartItem={cartItem}></Cart>
       </div>
+      <ToastContainer
+      position="top-center"
+      autoClose={3000}
+      hideProgressBar={false}
+      newestOnTop
+      closeOnClick
+      rtl={false}
+      pauseOnFocusLoss
+      draggable
+      pauseOnHover
+      theme="colored"
+      />
     </div>
   );
 };
