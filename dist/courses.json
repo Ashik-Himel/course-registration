@@ -5,7 +5,7 @@
     "img": "https://i.ibb.co/t2xdCmD/c.png",
     "price": 15000,
     "credit": 1,
-    "description": "Learn fundamental C programming concepts, syntax, and problem-solving skills in this beginner-friendly course. Build a strong coding foundation."
+    "description": "Learn fundamental C programming concepts, syntax, and problem-solving skills in this beginner-friendly course. Build a strong coding foundation and use it whatever you want."
   },
   {
     "id": 2,
@@ -37,7 +37,7 @@
     "img": "https://i.ibb.co/yfk1CWh/oop.png",
     "price": 19000,
     "credit": 5,
-    "description": "Begin your Python journey with Object-Oriented Programming (OOP) principles, mastering classes, objects, and inheritance for robust software development."
+    "description": "Begin your Python journey with OOP principles, mastering classes, objects, and inheritance for robust software development."
   },
   {
     "id": 6,
@@ -53,7 +53,7 @@
     "img": "https://i.ibb.co/MkPXdsq/aws.png",
     "price": 35000,
     "credit": 5,
-    "description": "Explore AWS and Cloud Computing, mastering scalable, cost-effective infrastructure and services for modern application deployment and management."
+    "description": "Explore AWS and Cloud Computing, mastering scalable, cost-effective infrastructure and services for modern application deployment."
   },
   {
     "id": 8,
